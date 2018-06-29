@@ -1,18 +1,26 @@
 {
-  "name": "bid-bang",
+  "name": "bid-mania",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@salesforce-ux/design-system": "^2.6.1",
+    "@salesforce/design-system-react": "^0.8.17",
+    "moment": "^2.22.2",
     "react": "^16.4.1",
+    "react-cntdwn": "^0.3.0",
     "react-dom": "^16.4.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "rsuite": "^3.1.1"
+    "react-images-upload": "^1.1.99",
+    "react-router": "^4.3.1",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "peerDependencies": {
+    "jquery": "1.9.1 - 3",
+    "popper.js": "^1.14.3"
   }
 }

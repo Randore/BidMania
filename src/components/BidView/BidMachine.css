@@ -1,0 +1,27 @@
+.BidGrid {
+    max-width: 1024px;
+    width: 100%;
+}
+
+.item-placeHolder {
+    max-height: 420px;
+    overflow: hidden;
+}
+
+.bg-color--item {
+    background-color: #f3f2f2;
+}
+
+.title-content--right {
+    line-height: 1.6em;
+}
+
+.list-items {
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+
+.list-items li {
+    list-style-type: disc;
+    padding-bottom: .75em;
+}

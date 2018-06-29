@@ -1,28 +1,18 @@
 import React, { Component } from 'react';
-import {render} from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-// Import modules
-import { Login } from './components/Login';
-import { MainPage } from './components/MainPage';
+// import Login from './components/Login/Login';
+// import BidMachine from './components/BidView/BidMachine';
+import BidEditor from './components/Campaign/CreateNewBid'
 
 import './App.css';
-import 'rsuite/dist/styles/rsuite.min.css';
-
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Login />
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div className="h-100">
+				<BidEditor />
+			</div>
+		);
+	}
 }
-
-render((
-  <Router>
-    <Route path="/" Component={MainPage} />
-  </Router>
-), document.getElementById('root'));
 
 export default App;
